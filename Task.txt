@@ -1,0 +1,23 @@
+1.Trước tiên mình cẩn phân tích cơ bản trươc 
+*Logo
+*Hình ảnh 
+*Kiểu chữ
+*Màu 
+*Phân chia dòng 
+2. Phân tích 
+*Trang thông tin bao gồm:
+WEB
++Trang chủ Hutech 
++Trung tâm QLCNTT
+FACEBOOK
++Hutech
++Trung tâm hutech
+Vấn đề giải quyết được những java update lên trang giao diện
+
+*Phân trang 
+Phần đánh giá rèn luyện bao gồm:
++Bản table
++Về sinh viên em thấy phần tác vụ nhiêu đủ
+Như nhiều form quá em cũng chưa xử lý được lắm hoặc chổ minh chứng  
+
+

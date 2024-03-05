@@ -1,0 +1,121 @@
+
+.table-element {
+    margin: 20px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 14px;
+    border-radius: 5px;
+    height: 100vh;
+}
+
+.notifi-element {
+    margin: 20px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.table-name {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.table-name>h3 {
+    font-weight: 600;
+}
+
+.row-table-content {
+    height: 70px;
+    border: 1px solid;
+    border-radius: 5px;
+
+}
+
+.row-element:hover {
+    cursor: pointer;
+    background-color: rgba(182, 182, 182, 0.206)
+}
+
+.status-done {
+    background-color: #396EB0;
+    color: white;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+.status-uncheck {
+    background-color: #FC997C;
+    color: white;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+#ribbon {
+    min-height: 40px;
+    background: #474544;
+    padding: 0 13px;
+    position: relative;
+}
+
+div {
+    display: block;
+}
+#ribbon .breadcrumb, #ribbon .breadcrumb a {
+    color: #BBB!important;
+    text-decoration: none!Important;
+}
+#ribbon .breadcrumb {
+    display: inline-block;
+    margin: 0;
+    padding: 11px 34px 11px 0!important;
+    background: 0 0;
+    vertical-align: top;
+}
+.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 18px;
+    list-style: none;
+    background-color: #f5f5f5;
+    border-radius: 2px;
+}
+
+.login-info{
+    background: #474544;
+}
+
+.login-info a span {
+    text-transform: capitalize;
+    font-size: 14px;
+    display: inline-block;
+    text-decoration: none;
+    max-width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+}
+
+.login-info a i {
+    color:#f5f5f5;
+}
+
+.flag.flag-us {
+    background-position: -16px -165px;
+}
+
+.flag+span {
+    text-transform: capitalize;
+    display: inline-block;
+    max-width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    margin-top: -3px;
+}

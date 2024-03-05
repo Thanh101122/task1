@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+
+    <title> Sinh viên HUTECH </title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="css/smartadmin-production-plugins.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/smartadmin-production.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/smartadmin-skins.min.css">
+ 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/smartadmin-rtl.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/demo.min.css">
+
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,300,400,700">
+
+    <link rel="apple-touch-icon" href="img/splash/sptouch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/splash/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/splash/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/splash/touch-icon-ipad-retina.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="smart-style-2">
+    <header id="header">
+        <div id="logo-group">
+            <p id="logo"> <img src="img/logo1.png" alt="SV-HUTECH"> </p>
+        </div>
+        <sa-activities><span class="activity-dropdown" id="activity">
+            <i class="fa fa-bell"></i>
+          </span>
+          <div class="ajax-dropdown">
+            <div class="ajax-notifications custom-scroll">
+              <ul class="notification-body">
+              </ul>
+            </div>
+          </div>
+        </sa-activities>
+        <sa-recent-projects><div class="project-context hidden-xs dropdown" dropdown="">
+
+            <span class="label">Liên kết</span>
+            <span class="project-selector dropdown-toggle" dropdowntoggle="" aria-haspopup="true">
+              Trang thông tin
+              <i class="fa fa-angle-down" ng-if="projects.length"></i>
+            </span>
+          </div></sa-recent-projects>
+        <div class="pull-right">
+            <div id="hide-menu" class="btn-header pull-right">
+                <p> <a href="javascript:void(0);" data-action="toggleMenu" title="Collapse Menu"><i
+                            class="fa fa-reorder"></i></a> </p>
+            </div>
+            <form class="header-search pull-right ng-untouched ng-pristine ng-valid" novalidate="">
+                <input id="search-fld" name="param" placeholder="Tìm hướng dẫn, trợ giúp ..." required="" type="text">
+                <button type="submit">
+                  <i class="fa fa-search"></i>
+                </button>
+                <a id="cancel-search-js" title="Hủy tìm kiếm"><i class="fa fa-times"></i></a>
+              </form>
+              <div class="btn-header transparent pull-right" id="fullscreen">
+                <span> <a title="Phóng lớn toàn màn hình"><i class="fa fa-arrows-alt"></i></a> </span>
+        </div>
+            <ul class="header-dropdown-list hidden-xs">
+                <li>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"> 
+                        <img src="img/blank.gif" class="flag flag-us" alt="United States">
+                         <span> Việt Nam</span>  
+                    </a>
+                    <ul class="dropdown-menu pull-right">
+                        <li class="active">
+                            <a href="javascript:void(0);"><img src="img/blank.gif" class="flag flag-us" alt="United States"> English (US)</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"><img src="img/blank.gif" class="flag flag-fr" alt="France"> Français</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"><img src="img/blank.gif" class="flag flag-es" alt="Spanish"> Español</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"><img src="img/blank.gif" class="flag flag-de" alt="German"> Deutsch</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"><img src="img/blank.gif" class="flag flag-jp" alt="Japan"> 日本語</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"><img src="img/blank.gif" class="flag flag-cn" alt="China"> 中文</a>
+                        </li>	
+                        <li>
+                            <a href="javascript:void(0);"><img src="img/blank.gif" class="flag flag-it" alt="Italy"> Italiano</a>
+                        </li>	
+                        <li>
+                            <a href="javascript:void(0);"><img src="img/blank.gif" class="flag flag-pt" alt="Portugal"> Portugal</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"><img src="img/blank.gif" class="flag flag-ru" alt="Russia"> Русский язык</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"><img src="img/blank.gif" class="flag flag-kr" alt="Korea"> 한국어</a>
+                        </li>						
+                    </ul>
+                </li>
+            </ul>
+            <ul id="mobile-profile-img" class="header-dropdown-list hidden-xs padding-5">
+                <li class="">
+                    <a href="#" class="dropdown-toggle no-margin userdropdown" data-toggle="dropdown">
+                        <img src="img/avatars/sunny.png" alt="John Doe" class="online" />
+                    </a>
+                    <ul class="dropdown-menu pull-right">
+                        <li>
+                            <a href="javascript:void(0);" class="padding-10 padding-top-0 padding-bottom-0"><i
+                                    class="fa fa-cog"></i> Setting</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="profile.html" class="padding-10 padding-top-0 padding-bottom-0"> <i
+                                    class="fa fa-user"></i> <u>P</u>rofile</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="javascript:void(0);" class="padding-10 padding-top-0 padding-bottom-0"
+                                data-action="toggleShortcut"><i class="fa fa-arrow-down"></i> <u>S</u>hortcut</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="javascript:void(0);" class="padding-10 padding-top-0 padding-bottom-0"
+                                data-action="launchFullscreen"><i class="fa fa-arrows-alt"></i> Full <u>S</u>creen</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="login.html" class="padding-10 padding-top-5 padding-bottom-5"
+                                data-action="userLogout"><i class="fa fa-sign-out fa-lg"></i>
+                                <strong><u>L</u>ogout</strong></a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        
+    </header>
+    <aside id="left-panel">
+        <div class="login-info">
+            <p> 
+                <a href="#" id="show-shortcut" data-action="toggleShortcut">
+                    <img src="img/avatars/sunny.png" alt="me" class="online" />
+                    <span>John Doe</span>
+                    <i class="fa fa-angle-down"></i>
+                </a>
+            </p>
+        </div>
+        <nav>
+            <ul>
+				<li myauthen="" class="">
+                    <a href="#" title="Đánh giá rèn luyện">
+                      <i class="fa fa-lg fa-fw fa-balance-scale"></i>
+                      <span class="menu-item-parent">Đánh giá rèn luyện</span>
+                    <b class="collapse-sign"><em class="fa fa-plus-square-o"></em></b></a>
+                    <ul style="display: none;">
+                      <li myauthen="" routerlinkactive="active" class="active">
+                        <a routerlink="ren-luyen-sinh-vien/phieu-danh-gia-list" href="#/sinhvien/ren-luyen-sinh-vien/phieu-danh-gia-list">Điểm cá nhân</a>
+                      </li>
+                      
+                    </ul>
+                  </li>
+			</ul>
+        </nav>
+        <p class="minifyme" data-action="minifyMenu">
+            <i class="fa fa-arrow-circle-left hit"></i>
+        </p>
+
+    </aside>
+    <div id="main" role="main">
+        <div id="ribbon">
+            <ol class="breadcrumb">
+                <li>Home</li>
+                <li>Blank</li>
+            </ol>
+    </div>
+    <div id="main" role="main">
+        <div class="notifi-element alert-info ">
+            <div role="alert" class="alert alert-info ng-star-inserted "> <!---->
+                <strong _ngcontent-c11="">Lưu ý:</strong>
+                <ul _ngcontent-c11="">
+                    <li _ngcontent-c11="">Điểm cá nhân, Điểm lớp và Điểm khoa là điểm đánh giá chưa tính điểm học tập
+                    </li>
+                    <li _ngcontent-c11="">Điểm tổng là điểm sau khi P.CTSV kiểm duyệt đã bao gồm điểm học tập</li>
+                    <li _ngcontent-c11="">Xếp loại và Điểm tổng nếu có giá trị là "_" thì đang đợi bổ sung điểm học tập
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="table-element ">
+
+            <div class="text-align-center table-name">
+                <h3>Lịch sử đánh giá rèn luyện</h3>
+            </div>
+            <table class="table">
+                <thead class="text-align-center table-head">
+                    <tr>
+                        <th scope="col">STT</th>
+                        <th scope="col">Học kỳ</th>
+                        <th scope="col">Năm học</th>
+                        <th scope="col"> Điểm Cá nhân</th>
+                        <th scope="col">Điểm Lớp</th>
+                        <th scope="col">Điểm Khoa</th>
+                        <th scope="col">Điểm Tổng</th>
+                        <th scope="col">Xếp loại</th>
+                        <th scope="col">Tình trạng</th>
+                    </tr>
+                </thead>
+            </table>
+
+
+        </div>
+    </div>
+    </div>
+
+    <div class="page-footer">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6">
+                <span class="txt-color-white">Bản quyền của HUTECH – Phát triển bởi TTQLCNTT © 2012 - 2024</span>
+            </div>
+
+            <div class="col-xs-6 col-sm-6 text-right hidden-xs">
+                <span class="txt-color-white">Version 3.1.0 </span>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
